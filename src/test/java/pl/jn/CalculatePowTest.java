@@ -33,7 +33,7 @@ public class CalculatePowTest {
     }
 
     @Test
-    public void should_return_false_lt_64() {
+    public void should_return_false_if_back_all_numbers() {
         assertThat(getNumbersAfterPow(numberList)).isNotEqualTo(expectedNumberList2);
     }
 
